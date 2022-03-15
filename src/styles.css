@@ -19,12 +19,12 @@
 .emojiBox {
   max-width: 90%;
   width: 40%;
-  font-size: 2.5rem;
   margin: auto;
 }
 
 .App .emojiSpan {
   margin: 1rem;
+  font-size: 2.5rem;
   line-height: 2em;
   cursor: pointer;
 }

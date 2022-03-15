@@ -34,7 +34,9 @@ export default function App() {
   var mainColor = "blue";
   var username = "Emoji Finder";
 
-  const [meaning, setMeaning] = useState("");
+  const [meaning, setMeaning] = useState(
+    "Enter some emojis or click from below to know their meanings"
+  );
 
   function emojiIutputHandler(event) {
     var inputEmoji = event.target.value;
@@ -57,7 +59,7 @@ export default function App() {
       <a
         id="github-repo"
         title="Source code for this app"
-        href="https://github.com/hijibiji1/emoji-interpreter-app/tree/main/src"
+        href="https://github.com/hijibiji1/emoji-interpreter-app"
       >
         <i className="fab fa-github"></i>
       </a>
