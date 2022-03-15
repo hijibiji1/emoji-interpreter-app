@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2vh;
+}
+
+.input {
+  width: 35%;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.breakLine {
+  margin-top: 30px;
+}
+
+.emojiBox {
+  max-width: 90%;
+  width: 40%;
+  font-size: 2.5rem;
+  margin: auto;
+}
+
+.App .emojiSpan {
+  margin: 1rem;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.App #github-repo {
+  font-size: 3rem;
+  color: black;
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+}
