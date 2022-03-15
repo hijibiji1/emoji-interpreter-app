@@ -54,7 +54,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <a id="github-repo" title="Source code for this app" href="/">
+      <a
+        id="github-repo"
+        title="Source code for this app"
+        href="https://github.com/hijibiji1/emoji-interpreter-app/tree/main/src"
+      >
         <i className="fab fa-github"></i>
       </a>
       <h1>
